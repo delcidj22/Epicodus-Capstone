@@ -16,8 +16,33 @@ h1 {
   font-family: 'Francois One', sans-serif;
   color: silver;
   font-size: 40px;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: 40%;
+}
+
+.column {
+  margin: auto;
+  width: 50%;
+  height: max-content;
+  text-align: center;
+  border: 3px solid;
+  padding: 10px;
+}
+
+.song {
+  text-align: center;
+  color: silver;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: larger;
+
+}
+
+.logo {
+  height: 50%;
+  width: 50%;
+  margin-left: 21%;
+  margin-top: 10%;
 }
 
  
