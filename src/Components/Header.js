@@ -1,8 +1,9 @@
 import React from "react";
+import './App.css';
 
 function Header(){
   return (
-    <h1>Walk Up Songs</h1>
+    <h1>Mariners Songs</h1>
   );
 }
 
