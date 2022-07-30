@@ -4,7 +4,7 @@ import spotify from '../img/Spotify_Logo_RGB_Green.png';
 
 function Eugenio() { 
   return (
-    <div className="Player" id="Julio">
+    <div className="Player" id="Eugenio">
       <div className="PlayerName">
         <h1>Eugenio Suarez</h1>
     </div>

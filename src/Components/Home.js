@@ -17,11 +17,11 @@ function Home() {
         <Dropdown.Item ><Link to='/Eugenio'>Eugenio Suarez</Link></Dropdown.Item>
         <Dropdown.Item href="#Eugenio">JP Crawford</Dropdown.Item>
         <Dropdown.Item href="#Eugenio">Ty France</Dropdown.Item>
-        <Dropdown.Item href="#Eugenio">Adam Frazier</Dropdown.Item>
-        <Dropdown.Item href="#Eugenio">Jesse Winker</Dropdown.Item>
-        <Dropdown.Item href="#Eugenio">Cal Raleigh</Dropdown.Item>
-        <Dropdown.Item href="#Eugenio">Abraham Toro</Dropdown.Item>
-        <Dropdown.Item href="#Eugenio">Carlos Santana</Dropdown.Item>
+        <Dropdown.Item ><Link to='/Adam'>Adam Frazier</Link></Dropdown.Item>
+        <Dropdown.Item ><Link to='/Jesse'>Jesse Winker</Link></Dropdown.Item>
+        <Dropdown.Item ><Link to='/Cal'>Cal Raleigh</Link></Dropdown.Item>
+        <Dropdown.Item ><Link to='/Abraham'>Abraham Toro</Link></Dropdown.Item>
+        <Dropdown.Item ><Link to='/Carlos'>Carlos Santana</Link></Dropdown.Item>
         <Dropdown.Item href="#Eugenio">Kyle Lewis</Dropdown.Item>
       </Dropdown.Menu>
       <style>{'body { background-color: teal; }'}</style>
