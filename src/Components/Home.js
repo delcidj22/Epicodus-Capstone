@@ -1,6 +1,9 @@
 import Dropdown from 'react-bootstrap/Dropdown';
 import React from 'react';
 import './App.css';
+import { Link } from 'react-router-dom';
+
+
 
 function Home() {
   return (
@@ -10,23 +13,21 @@ function Home() {
       </Dropdown.Toggle>
 
       <Dropdown.Menu>
-        <Dropdown.Item href='../players/julio.js'>Julio Rodriguez</Dropdown.Item>
-        <Dropdown.Item href="#Jesse">Jesse Winker</Dropdown.Item>
+        <Dropdown.Item ><Link to='/Julio'>Julio Rodriguez</Link></Dropdown.Item>
+        <Dropdown.Item ><Link to='/Eugenio'>Eugenio Suarez</Link></Dropdown.Item>
         <Dropdown.Item href="#Eugenio">JP Crawford</Dropdown.Item>
         <Dropdown.Item href="#Eugenio">Ty France</Dropdown.Item>
         <Dropdown.Item href="#Eugenio">Adam Frazier</Dropdown.Item>
-        <Dropdown.Item href="#Eugenio">Eugenio Suarez</Dropdown.Item>
+        <Dropdown.Item href="#Eugenio">Jesse Winker</Dropdown.Item>
         <Dropdown.Item href="#Eugenio">Cal Raleigh</Dropdown.Item>
         <Dropdown.Item href="#Eugenio">Abraham Toro</Dropdown.Item>
         <Dropdown.Item href="#Eugenio">Carlos Santana</Dropdown.Item>
         <Dropdown.Item href="#Eugenio">Kyle Lewis</Dropdown.Item>
       </Dropdown.Menu>
       <style>{'body { background-color: teal; }'}</style>
-    </Dropdown>
+    </Dropdown> 
     
   );
-
-
 }
 
 export default Home;

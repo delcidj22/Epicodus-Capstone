@@ -3,12 +3,11 @@
 }
 
 h1 {
-  font-size: 90px;
+  font-size: 200px;
   font-family: 'Francois One', sans-serif;
   font-style: italic;
   color: gold;
   margin-left: 38%;
- 
 }
 
 #dropdown-basic {
@@ -29,19 +28,34 @@ h1 {
   padding: 10px;
 }
 
-.song {
-  text-align: center;
-  color: silver;
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: italic;
-  font-size: larger;
-
-}
-
 .logo {
   height: 50%;
   width: 50%;
   margin-left: 21%;
+  margin-top: 10%;
+}
+
+.PlayerPhoto {
+  height: 20%;
+  width: 20%;
+  margin-left: 40%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.PlayerSong {
+  font-size: 500px;
+  font-family: 'Francois One', sans-serif;
+  font-style: italic;
+  margin-left: 15px;
+  color: silver;
+}
+.PlayerName {
+  font-size: x-large;
+  font-family: 'Francois One', sans-serif;
+  font-style: italic;
+  color: gold;
+  margin-left: auto;
   margin-top: 10%;
 }
 
