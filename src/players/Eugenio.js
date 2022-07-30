@@ -1,5 +1,5 @@
 import React from "react";
-import photo2 from '../img/eugenio.jpg';
+import photo2 from '../img/eugenio.png';
 import spotify from '../img/Spotify_Logo_RGB_Green.png';
 
 function Eugenio() { 
@@ -10,7 +10,7 @@ function Eugenio() {
     </div>
 
 
-    <div className="PlayerPhoto">
+    <div className="PngPhoto">
     <img src={photo2} alt="EugenioPhoto" />
     </div>
 

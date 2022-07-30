@@ -12,6 +12,10 @@ import Adam from '../players/Adam';
 import Cal from '../players/Cal';
 import Carlos from '../players/Carlos';
 import Jesse from '../players/Jesse';
+import JP from '../players/JP';
+import Kyle from '../players/Kyle';
+import Ty from '../players/Ty';
+
 
 
 
@@ -29,6 +33,9 @@ function App() {
       < Route path='/Cal' element={ <Cal /> } /> 
       < Route path='/Carlos' element={ <Carlos /> } /> 
       < Route path='/Jesse' element={ <Jesse /> } /> 
+      < Route path='/JP' element={ <JP /> } />
+      < Route path='/Kyle' element={ <Kyle /> } />
+      < Route path='/Ty' element={ <Ty /> } />
       </Routes>
     </Router>
   );
