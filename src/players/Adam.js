@@ -1,5 +1,5 @@
 import React from "react";
-import photo2 from '../img/adam.jpg';
+import photo2 from '../img/adam.png';
 import spotify from '../img/Spotify_Logo_RGB_Green.png';
 
 function Adam() { 
@@ -10,7 +10,7 @@ function Adam() {
     </div>
 
 
-    <div className="PlayerPhoto">
+    <div className="PngPhoto">
     <img src={photo2} alt="AdamPhoto" />
     </div>
 
