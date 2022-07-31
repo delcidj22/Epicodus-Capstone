@@ -26,7 +26,8 @@ function App() {
       < Home />
       < Homelogo />
       < Routes>
-      < Route path='/Julio' element={ <Julio/> } />
+      < Route path='/Home' element={ <Home /> } />
+      < Route path='/Julio' element={ <Julio /> } />
       < Route path='/Eugenio' element={ <Eugenio /> } />
       < Route path='/Abraham' element={ <Abraham /> } /> 
       < Route path='/Adam' element={ <Adam /> } />

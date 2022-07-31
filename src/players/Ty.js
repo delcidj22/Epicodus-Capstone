@@ -2,6 +2,7 @@ import React from "react";
 import photo2 from '../img/ty.png';
 import spotify from '../img/Spotify_Logo_RGB_Green.png';
 
+
 function Ty() { 
   return (
     <div className="Player" id="Ty">
